@@ -96,6 +96,7 @@ export default Component.extend({
         breadCrumb = {
           path,
           linkable: defaultLinkable,
+          name: name,
           title: classify(name)
         };
       } else if (breadCrumbType === 'null') {
